@@ -302,7 +302,7 @@
         layer_4 {
             display-name = "4 NUM-left";
             bindings = <
-  &kp MINUS     &kp EQUAL      &kp N7             &kp N8        &kp N9                           &mmv MOVE_UP                     &trans  &trans  &trans  &trans  &trans
+  &kp MINUS     &kp EQUAL      &kp N7             &kp N8        &kp N9                           &mmv MOVE_UP                     &kp A   &trans  &trans  &trans  &trans
   &tog 4        &kp PLUS       &kp N4             &kp N5        &kp N6           &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans  &trans  &trans  &trans  &trans
   &kp ASTERISK  &kp KP_DIVIDE  &kp N1             &kp N2        &kp N3                           &mmv MOVE_DOWN                   &trans  &trans  &trans  &trans  &trans
                                &hm LEFT_SHIFT N0  &lt 6 KP_DOT  &lt 5 SPACE                                                       &trans  &trans  &trans
