@@ -175,7 +175,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - A
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -297,7 +297,7 @@ layers:
 combos:
 - p: [0, 12, 24]
   k: '&soft_off'
-- p: [3, 2, 3]
+- p: [27, 26]
   k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [14, 13]
   k: $$mdi:backspace-reverse-outline$$
