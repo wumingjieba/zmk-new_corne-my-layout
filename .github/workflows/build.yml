@@ -8,10 +8,4 @@ on:
 jobs:
   build:
     steps:
-      - name: Clean build cache
-        run: |
-          # 删除缓存目录（与本地清理逻辑一致）
-          rm -rf build/ .west/ modules/ zmk/
-
-      - name: Run ZMK build workflow
         uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
