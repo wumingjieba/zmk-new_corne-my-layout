@@ -297,7 +297,7 @@ layers:
 combos:
 - p: [0, 12, 24]
   k: '&soft_off'
-- p: [27, 26]
+- p: [2, 3]
   k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [14, 13]
   k: $$mdi:backspace-reverse-outline$$
