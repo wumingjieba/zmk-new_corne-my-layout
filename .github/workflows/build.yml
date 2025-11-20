@@ -9,9 +9,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4  # 拉取当前仓库代码
-
       - name: Clean build cache
         run: |
           # 删除缓存目录（与本地清理逻辑一致）
