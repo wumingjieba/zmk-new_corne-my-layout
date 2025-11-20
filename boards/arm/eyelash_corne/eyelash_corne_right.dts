@@ -8,5 +8,5 @@
 #include "eyelash_corne.dtsi"
 
 &default_transform {
-    col-offset = <6>;
+    col-offset = <7>;
 };
