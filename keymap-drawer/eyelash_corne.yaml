@@ -6,7 +6,7 @@ layers:
   - '&as E'
   - '&as R'
   - '&as T'
-  - $$mdi:arrow-up-bold$$
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - '&as Y'
   - '&as U'
   - '&as I'
@@ -17,9 +17,9 @@ layers:
   - '&as D'
   - '&as F'
   - '&as G'
-  - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - $$mdi:mouse-left-click-outline$$
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - '&as H'
   - '&as J'
   - '&as K'
@@ -30,7 +30,7 @@ layers:
   - '&as C'
   - '&as V'
   - '&as B'
-  - $$mdi:arrow-down-bold$$
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - '&as N'
   - '&as M'
   - '&as COMMA'
