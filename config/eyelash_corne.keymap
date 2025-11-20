@@ -160,7 +160,7 @@
 
         bsp-left {
             bindings = <&kp BACKSPACE>;
-            key-positions = <27 26>;
+            key-positions = <2 3>;
             timeout-ms = <30>;
         };
 
