@@ -61,7 +61,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TDALTLAYER3";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_ALT>, <&mo 3>;
+            bindings = <&mo 3>, <&kp RIGHT_ALT>;
         };
 
         tdlayer4: tdlayer4 {
