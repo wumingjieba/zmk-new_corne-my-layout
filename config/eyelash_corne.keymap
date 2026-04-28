@@ -190,7 +190,7 @@
         };
 
         f13 {
-            bindings = <&kp F13>;
+            bindings = <&kp F12>;
             key-positions = <4 3>;
         };
     };
