@@ -188,6 +188,11 @@
             bindings = <&kp ESCAPE>;
             key-positions = <0 37>;
         };
+
+        f13 {
+            bindings = <&kp F13>;
+            key-positions = <4 3>;
+        };
     };
 
     macros {
