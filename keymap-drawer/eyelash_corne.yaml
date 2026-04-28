@@ -310,4 +310,4 @@ combos:
 - p: [0, 37]
   k: $$mdi:keyboard-esc$$
 - p: [4, 3]
-  k: F13
+  k: F12
