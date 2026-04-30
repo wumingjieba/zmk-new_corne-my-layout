@@ -133,6 +133,13 @@
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_LEFT>, <&msc SCRL_RIGHT>;
         };
+
+        new_behavior: new_behavior {
+            compatible = "zmk,behavior-tap-dance";
+            label = "NEW_BEHAVIOR";
+            #binding-cells = <0>;
+            bindings = <&trans>, <&password3VPN>;
+        };
     };
 
     rgb_encoder: rgb_encoder {
@@ -192,6 +199,11 @@
         f13 {
             bindings = <&kp F12>;
             key-positions = <4 3>;
+        };
+
+        f11 {
+            bindings = <&kp F11>;
+            key-positions = <14 15>;
         };
     };
 
