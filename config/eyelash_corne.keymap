@@ -124,7 +124,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TDPS";
             #binding-cells = <0>;
-            bindings = <&trans>, <&password0>;
+            bindings = <&trans>, <&password3VPN>;
         };
 
         scroll_encoder_left: scroll_encoder_left {
